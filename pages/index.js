@@ -10,11 +10,14 @@ export default function Home() {
         let nav = document.getElementById('mynav');
         nav.classList.add('bg-white')
         nav.classList.add('text-black')
+        nav.classList.remove('text-white')
       }
       else{
         let nav = document.getElementById('mynav');
         nav.classList.remove('bg-white')
         nav.classList.remove('text-black')
+        nav.classList.add('text-white')
+        
       }
 
     }
