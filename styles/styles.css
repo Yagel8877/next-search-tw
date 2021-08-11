@@ -5,3 +5,6 @@
 .color-b{
     @apply text-yellow-300;
 }
+*{
+    -webkit-tap-highlight-color: transparent;
+}
