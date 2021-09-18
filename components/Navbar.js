@@ -31,6 +31,8 @@ const navbar = () => {
                 <Link href='/'><a className='select-none ml-1'><li className='border-2 border-black rounded-md p-1 flex gap-1 '><p className='hidden md:block'>Home</p><svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg></li></a></Link>
                 <li className='border-2 border-black rounded-md p-1'><Link href='/page2' ><a>page2</a></Link></li>
                 <li className='border-2 border-black rounded-md p-1'><Link href='/page3' ><a>page3</a></Link></li>
+                <li className='border-2 border-black rounded-md p-1'><Link href='/search' ><a>Search</a></Link></li>
+                
                 <Menu as='div' className='relative mr-4 ml-auto p-2 text-black rounded-md border-black mt-1 shadow-md'>
                     <Menu.Button as='button' className=''>
                         <span>click me!</span>  
