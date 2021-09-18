@@ -9,5 +9,5 @@
     @apply p-1 text-black  border-b-black border-[1px] bg-yellow-50;
 }
 *{
-    -webkit-tap-highlight-color: red;
+    -webkit-tap-highlight-color: transparent;
 }
