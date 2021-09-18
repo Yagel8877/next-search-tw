@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.color-b{
-    @apply text-yellow-300;
+.li-item{
+    @apply   p-1 text-black mt-4 border-b-[1px] border-black ;  
 }
-*{
-    -webkit-tap-highlight-color: transparent;
+.li-item-active{
+    @apply p-1 text-black  border-b-black border-[1px] bg-yellow-50;
 }
