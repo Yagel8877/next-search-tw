@@ -60,7 +60,14 @@ const Search = () => {
                     </div>
 
         )
-    
+        else if(FilteredData.length === 0) return(
+            <div className='mt-5'>
+            <input onChange={(e)=> searchItems(e.target.value)} placeholder='Enter an ID'></input>
+            <p className='mt-2 text-xl'>Ooops, it seems like we can't find what you're looking for!</p>
+            </div>
+        )
+        
+        
         return ( <div className='mt-5 '>
             <input onChange={(e)=> searchItems(e.target.value)} placeholder='Enter an ID'></input>
                 <div className=' grid  gap-2'>
